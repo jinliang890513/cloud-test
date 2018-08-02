@@ -17,8 +17,8 @@ zuul:
   sensitiveHeaders: 
   routes:
     backend:
-      path: /api-backend/**
-      serviceId: psiot-cloud-backend
+      path: /api-backend-web/**
+      serviceId: psiot-cloud-backend-web
   host:
     connect-timeout-millis: 10000
     socket-timeout-millis: 60000
